@@ -1,0 +1,1000 @@
+ 1003  cd Projects/por
+ 1004  cd Projects/portal
+ 1005  rvm 1.9.2
+ 1006  rvm gemset use rails_321
+ 1007  rails c
+ 1008  cd lib/
+ 1009  cd ..
+ 1010  ls
+ 1011  cd ..
+ 1012  ls
+ 1013  mkdir old_code
+ 1014  cp -R portal/lib/address/ old_code/.
+ 1015  cd old_code/
+ 1016  ls
+ 1017  cd ..
+ 1018  cd portal
+ 1019  cd lib/
+ 1020  ls
+ 1021  rm -rf address/
+ 1022  ls
+ 1023  cd ..
+ 1024  rails s
+ 1025  cd Projects/portal
+ 1026  rvm 1.9.2
+ 1027  rvm gemset use rails_321
+ 1028  git status
+ 1029  ruby -v
+ 1030  rvm 1.9.2
+ 1031  rvm gemset use rails_321
+ 1032  git status
+ 1033  rm lib/accounts/app/views/company/accounts/get_contacts.html.erb
+ 1034  git status
+ 1035  nano lib/contacts/app/controllers/crm/contacts_controller.rb 
+ 1036  nano lib/contacts/app/views/crm/contacts/index.html.erb 
+ 1037  nano lib/accounts/app/views/company/accounts/index.html.erb 
+ 1038  git status
+ 1039  git add .
+ 1040  git status
+ 1041  git diff Gemfile
+ 1042  git diff Gemfile.lock
+ 1043  git diff
+ 1044  git status
+ 1045  rails s
+ 1046  rvm 1.9.2
+ 1047  rvm gemset use rails_321
+ 1048  rails c
+ 1049  exit
+ 1050  git status
+ 1051  git reset --hard
+ 1052  git status
+ 1053  git reset --hard
+ 1054  git status
+ 1055  rm -rf
+ 1056  git status
+ 1057  rm -rf Gemfile.lock.BACKUP.2398.lock Gemfile.lock.BASE.2398.lock Gemfile.lock.LOCAL.2398.lock Gemfile.lock.REMOTE.2398.lock
+ 1058  git status
+ 1059  git stash apply
+ 1060  git mergetool
+ 1061  git rset --hard
+ 1062  git reset --hard
+ 1063  git status
+ 1064  git clean
+ 1065  git status
+ 1066  git clean -rm -rf
+ 1067  git clean -rf
+ 1068  git clean rm -f
+ 1069  git status
+ 1070  rm -rf Gemfile.lock.orig lib/accounts/app/views/company/accounts/_form.html.erb.BACKUP.2690.erb lib/accounts/app/views/company/accounts/_form.html.erb.BASE.2690.erb lib/accounts/app/views/company/accounts/_form.html.erb.LOCAL.2690.erb lib/accounts/app/views/company/accounts/_form.html.erb.REMOTE.2690.erb
+ 1071  git status
+ 1072  git mergetool
+ 1073  nano .git/config 
+ 1074  git stash apply
+ 1075  git mergetool
+ 1076  git status
+ 1077  gitg
+ 1078  git status
+ 1079  nano Gemfile
+ 1080  git g
+ 1081  gitg
+ 1082  git commit -a -m "Addressable UI chhanges."
+ 1083  git status
+ 1084  git push origin master
+ 1085  git status
+ 1086  git reset --hard
+ 1087  cd ..
+ 1088  git status
+ 1089  rvm 1.9.2
+ 1090  rvm gemset use rails_321
+ 1091  rails plugin new matters --mountable --skip-test-unit --dummy-path=spec/dummy
+ 1092  git status
+ 1093  ls
+ 1094  cd matters/
+ 1095  rmv gemset use rails_321
+ 1096  rvm 1.9.2
+ 1097  rmv gemset use rails_321
+ 1098  rvm gemset use rails_321
+ 1099  cd ,,
+ 1100  cd ..
+ 1101  cp -r matters/ portal/lib/.
+ 1102  cd portal
+ 1103  rvm gemset use rails_321
+ 1104  cd lib/matters/
+ 1105  ls
+ 1106  rails g scaffols matters
+ 1107  rails g scaffold matters
+ 1108  cd ..
+ 1109  rake -t
+ 1110  cd lib/matters/
+ 1111  rake -t
+ 1112  nano Gemfile 
+ 1113  nano matters.gemspec 
+ 1114  rake -t
+ 1115  bundle install
+ 1116  rake -t
+ 1117  cd spec/dummy/
+ 1118  ls
+ 1119  rake -t
+ 1120  cd ..
+ 1121  cp lib/matters/db/migrate/*.* db/migrate/.
+ 1122  cd db/migrate/
+ 1123  ls
+ 1124  rake -t
+ 1125  rake db:migrate
+ 1126  rake db:migrate VERSION=20120322123315
+ 1127  rake db:migrate:up VERSION=20120322123315
+ 1128  exit
+ 1129  cd Projects/portal
+ 1130  rvm 1.9.2
+ 1131  rvm gemset use rails_321
+ 1132  git status
+ 1133  git stash
+ 1134  git status
+ 1135  git fetch origin master
+ 1136  git reset --hard origin/master
+ 1137  git rebase origin/master
+ 1138  git fetch
+ 1139  git rebase origin/master
+ 1140  gitg
+ 1141  git stash apply
+ 1142  git mergetool
+ 1143  sudo apt-get install mergetool
+ 1144  sudo apt-get install kdiff
+ 1145  sudo apt-get install kdiff3
+ 1146  git status
+ 1147  git clean -fd
+ 1148  git status
+ 1149  git reset --hard
+ 1150  git status
+ 1151  git stash apply
+ 1152  git mergetool
+ 1153  git status
+ 1154  git clean -fd
+ 1155  git status
+ 1156  git commit -a -m "Added act_as_addressable engine."
+ 1157  git status
+ 1158  gitg
+ 1159  nano .gitignore 
+ 1160  rails s
+ 1161  bundle install
+ 1162  nano Gemfile
+ 1163  bundle install
+ 1164  rails s
+ 1165  nano Gemfile
+ 1166  rails s
+ 1167  nano Gemfile
+ 1168  rails s
+ 1169  exit
+ 1170  rvm 1.9.2
+ 1171  rvm gemset use rails_321
+ 1172  rake db:migrate:down version=20120322123315
+ 1173  rake db:migrate:down VERSION=20120322123315
+ 1174  rake db:migrate:up VERSION=20120322123315
+ 1175  cd Projects/portal
+ 1176  rvm 1.9.2
+ 1177  rvm gemset use rails_321
+ 1178  rails s
+ 1179  rvm 1.9.2
+ 1180  rv mgemset use rails_321
+ 1181  cd Projects/portal
+ 1182  git status
+ 1183  git branch
+ 1184  rvm 1.9.2
+ 1185  rvm gemset use livia_portal
+ 1186  rvm gemset use rails_321
+ 1187  rails s
+ 1188  lsusb
+ 1189  sudo modprobe usbserial vendor=0x0eab product=0x9357
+ 1190  rvm 1.9.2
+ 1191  irb
+ 1192  sudo modprobe usbserial vendor=0x0eab product=0x9357
+ 1193  cd Projects/portal
+ 1194  rvm 1.9.2
+ 1195  rvm gemset use rails_321
+ 1196  rvm 1.9.2
+ 1197  cd Desktop/
+ 1198  cd test/
+ 1199  ruby dynami_methods.rb 
+ 1200  ruby -v
+ 1201  ruby dynamic_methods.rb 
+ 1202  irb
+ 1203  rvm 1.9.2
+ 1204  rvm gemset use rails_321
+ 1205  rails s
+ 1206  sudo modprobe usbserial vendor=0x0eab product=0x9357
+ 1207  ifconfig
+ 1208  rvm 1.9.2
+ 1209  rvm gemset use rails_321
+ 1210  rails c
+ 1211  cd Projects/portal
+ 1212  rvm 1.9.2
+ 1213  rvm gemset use rails_321
+ 1214  git status
+ 1215  git add lib/addressable/lib/addressable/addressable_helper.rb
+ 1216  git status
+ 1217  git commit -m "Added helper methods." lib/accounts/app/helpers/company/accounts_helper.rb lib/accounts/app/views/company/accounts/_form.html.erblib/accounts/app/views/company/accounts/show.html.erb lib/addressable/app/helpers/addressable/application_helper.rb lib/addressable/lib/addressable.rb lib/contacts/app/controllers/crm/contacts_controller.rb lib/contacts/app/helpers/crm/contacts_helper.rb lib/contacts/app/views/crm/contacts/_form.html.erb lib/contacts/app/views/crm/contacts/show.html.erb
+ 1218  git commit -m "Added helper methods." lib/accounts/app/helpers/company/accounts_helper.rb lib/accounts/app/views/company/accounts/_form.html.erb lib/accounts/app/views/company/accounts/show.html.erb lib/addressable/app/helpers/addressable/application_helper.rb lib/addressable/lib/addressable.rb lib/contacts/app/controllers/crm/contacts_controller.rb lib/contacts/app/helpers/crm/contacts_helper.rb lib/contacts/app/views/crm/contacts/_form.html.erb lib/contacts/app/views/crm/contacts/show.html.erb
+ 1219  git status
+ 1220  gitg
+ 1221  git stash clear
+ 1222  git status
+ 1223  git add .
+ 1224  git status
+ 1225  git stash
+ 1226  git status
+ 1227  git reset --hard
+ 1228  git fetch
+ 1229  git status
+ 1230  git stash apply
+ 1231  git status
+ 1232  nano .git/config 
+ 1233  git status
+ 1234  git stash
+ 1235  git fetch
+ 1236  nano .git/config 
+ 1237  git fetch
+ 1238  git status
+ 1239  git g
+ 1240  gitg
+ 1241  git reset --hard origin/master
+ 1242  gitg
+ 1243  git rebase origin master
+ 1244  git reflogs
+ 1245  git reflog
+ 1246  git cherry-pick 62fd406
+ 1247  gitg
+ 1248  git push origin master
+ 1249  ssh -T
+ 1250  ssh -T git@github.com
+ 1251  git status
+ 1252  git stash apply
+ 1253  git mergetool
+ 1254  git status
+ 1255  rm -rf app/assets/javascripts/application.js.orig 
+ 1256  gitg
+ 1257  rvm 1.9.2
+ 1258  rvm gemset use rails_321
+ 1259  rails s
+ 1260  sudo modprobe usbserial vendor=0x0eab product=0x9357
+ 1261  cd Projects/portal
+ 1262  git status
+ 1263  git stash
+ 1264  gitg
+ 1265  nano .git/config 
+ 1266  git push origin master
+ 1267  git status
+ 1268  git stash apply
+ 1269  exit
+ 1270  cd Projects/portal
+ 1271  git status
+ 1272  rvm 1.9.2
+ 1273  rvm gemset use rails_321
+ 1274  git status
+ 1275  git stash
+ 1276  git status
+ 1277  gitg
+ 1278  gitg &
+ 1279  git checkout 8e22fdc8dd071d7afd1693caf88d732468ae33d9
+ 1280  git reset --hard
+ 1281  git status
+ 1282  git checkout master
+ 1283  git status
+ 1284  git reset --hard
+ 1285  git stash apply
+ 1286  git status
+ 1287  rvm 1.9.2
+ 1288  rvm gemset use rails_321
+ 1289  git status
+ 1290  rails s
+ 1291  nano Gemfile
+ 1292  nano lib/contacts/crm.gemspec 
+ 1293  rails s
+ 1294  nano lib/contacts/crm.gemspec 
+ 1295  nano lib/contacts/Gemfile
+ 1296  rails s
+ 1297  nano Gemfile
+ 1298  rails s
+ 1299  nano Gemfile
+ 1300  rails s
+ 1301  git status
+ 1302  git reset --hard
+ 1303  rails s
+ 1304  git status
+ 1305  git rebase origin master
+ 1306  rails s
+ 1307  nano Gemfile
+ 1308  rails s
+ 1309  git status
+ 1310  git branch
+ 1311  git stash apply
+ 1312  git status
+ 1313  rails s
+ 1314  LSUSB
+ 1315  lsusb
+ 1316  sudo modprobe usbserial vendor=0x0eab product=0x9357
+ 1317  cd Projects/portal
+ 1318  rvm 1.9.2
+ 1319  rvm gemset use rails_321
+ 1320  cd ..
+ 1321  mkdir act_as_sortable
+ 1322  cd act_as_sortable/
+ 1323  mkdif lib
+ 1324  mkdir lib
+ 1325  vi act_as_sortable.gemspec
+ 1326  l
+ 1327  vi act_as_sortable.gemspec
+ 1328  ls
+ 1329  cd lib/
+ 1330  ls
+ 1331  cd ..
+ 1332  cd portal
+ 1333  rvm 1.9.2
+ 1334  rmv gemset use rails_321
+ 1335  rvm gemset use rails_321
+ 1336  clear
+ 1337  cd ..
+ 1338  cd sortable/
+ 1339  cd lib/
+ 1340  ls
+ 1341  cd ..
+ 1342  cd portal/lib/sortable/
+ 1343  ls
+ 1344  cd lib/
+ 1345  ls
+ 1346  rm model_additions model_additions.rb 
+ 1347  cd sortable/
+ 1348  ls
+ 1349  cd ..
+ 1350  ls
+ 1351  cd sortable/
+ 1352  ls
+ 1353  cd ..
+ 1354  cd act_as_sortable/
+ 1355  rvm 1.9.2
+ 1356  rvm gemset use rails_321
+ 1357  cd lib/
+ 1358  vim act_as_sortable.rb 
+ 1359  cd ..
+ 1360  mkdir views
+ 1361  vim lib/act_as_sortable.rb 
+ 1362  cd ..
+ 1363  ruby -v
+ 1364  rm -rf act_as_sortable/
+ 1365  bundle gem sortable
+ 1366  rm -rf sortable/
+ 1367  bundle gem sortable
+ 1368  cd sortable/
+ 1369  vim sortable.gemspec 
+ 1370  cd lib/
+ 1371  cd sortable/
+ 1372  ls
+ 1373  vim version.rb 
+ 1374  cd ..
+ 1375  ls
+ 1376  vi sortable.rb 
+ 1377  nano sortable.rb 
+ 1378  vi model_additions
+ 1379  vi model_additions.rb
+ 1380  ls
+ 1381  cd ..
+ 1382  ls
+ 1383  cd lib/
+ 1384  ls
+ 1385  cd sortable/
+ 1386  ls
+ 1387  mv ../model_additions.rb .
+ 1388  ls
+ 1389  vim railtie.rb
+ 1390  cd ..
+ 1391  cp sortable/ portal/lib/.
+ 1392  cp -R sortable/ portal/lib/.
+ 1393  cd portal/lib/
+ 1394  ls
+ 1395  cd sortable/
+ 1396  ls
+ 1397  cd ..
+ 1398  bundle install
+ 1399  rvm 1.9.2
+ 1400  rvm gemset use rails_321
+ 1401  bundle install
+ 1402  git status
+ 1403  git commit -a -m "Delete old sortable engine."
+ 1404  git status
+ 1405  git stash
+ 1406  git status
+ 1407  git fetch
+ 1408  rvm 1.9.2
+ 1409  irb
+ 1410  rvm 1.9.2
+ 1411  rvm gemset use rails_321
+ 1412  git status
+ 1413  gitg
+ 1414  git add .
+ 1415  git status
+ 1416  git add .
+ 1417  git status
+ 1418  git commit -a -m "Added matters engines."
+ 1419  git status
+ 1420  git push origin master
+ 1421  git status
+ 1422  gitg
+ 1423  git reset --hard
+ 1424  git status
+ 1425  clear
+ 1426  rails s
+ 1427  bundle install
+ 1428  rails s
+ 1429  bundle install
+ 1430  rails s
+ 1431  clear
+ 1432  rails s
+ 1433  bundle install
+ 1434  rails s
+ 1435  cd Projects/portal
+ 1436  rvm 1.9.2
+ 1437  rvm gemset use rails_321
+ 1438  lsusb
+ 1439  sudo modprobe usbserial vendor=0x0eab product=0x9357
+ 1440  lsusb
+ 1441  cd Projects/portal
+ 1442  cd ..
+ 1443  ls
+ 1444  rm -rf sortable/
+ 1445  rvm 1.9.2
+ 1446  rvm gemset use rails_321
+ 1447  ls
+ 1448  rails plugin new sortable --mountable --skip-test-unit --dummy-path=spec/dummy
+ 1449  ls
+ 1450  cd sortable/
+ 1451  ls
+ 1452  nano sortable.gemspec 
+ 1453  cd lib/sortable/
+ 1454  ls
+ 1455  nano version.rb 
+ 1456  cd ..
+ 1457  ls
+ 1458  nano sortable.rb 
+ 1459  cd ..
+ 1460  cd app/helpers/sortable/
+ 1461  ls
+ 1462  vi sortable_helper.rb
+ 1463  cd ..
+ 1464  cd views/
+ 1465  ls
+ 1466  mkdir sortable
+ 1467  cd sortable/
+ 1468  vim _head.html.erb
+ 1469  cd ..
+ 1470  cd lib/sortable/
+ 1471  ls
+ 1472  vim model_additions.rb
+ 1473  vim railtie.rb
+ 1474  cd ..
+ 1475  cd portal
+ 1476  rmv 1.9.2
+ 1477  rvm 1.9.2
+ 1478  rvm gemset use rails_321
+ 1479  cd lib/
+ 1480  ls
+ 1481  rm -rf sortable/
+ 1482  ls
+ 1483  git status
+ 1484  cd ..
+ 1485  git status
+ 1486  ls
+ 1487  cp -r ../sortable/ lib/.
+ 1488  cd lib/
+ 1489  cd sortable/
+ 1490  ls
+ 1491  cd app/views/sortable/
+ 1492  ls
+ 1493  cd ..
+ 1494  ls
+ 1495  git status
+ 1496  rails s
+ 1497  git status
+ 1498  git reset --hard
+ 1499  git status
+ 1500  git fetch
+ 1501  git rebase origin/master
+ 1502  gitg
+ 1503  git push origi master
+ 1504  git push origin master
+ 1505  gitg
+ 1506  cd lib/
+ 1507  ls
+ 1508  git status
+ 1509  git add .
+ 1510  git status
+ 1511  cd ..
+ 1512  git status
+ 1513  clear
+ 1514  git satus
+ 1515  git status
+ 1516  clear
+ 1517  gitk lib/contacts/app/controllers/crm/contacts_controller.rb
+ 1518  gitg lib/contacts/app/controllers/crm/contacts_controller.rb
+ 1519  clear
+ 1520  rvm 1.9.2
+ 1521  rvm gemset use rails_321
+ 1522  rails s
+ 1523  clear
+ 1524  rails s
+ 1525  lsusb
+ 1526  sudo modprobe usbserial vendor=0x0eab product=0x9357
+ 1527  cd Projects/
+ 1528  cd portal
+ 1529  cd Projects/portal
+ 1530  rvn 1.9.1
+ 1531  rvm 1,9,2
+ 1532  rvm 1.9.2
+ 1533  rvm gemset use rails_321
+ 1534  rails s
+ 1535  rvm .19.2
+ 1536  rvm 1.9.2
+ 1537  rvm gemset use rails_321
+ 1538  git status
+ 1539  git add .
+ 1540  git status
+ 1541  git commit -a -m "Added sortable engine."
+ 1542  git status
+ 1543  rails c
+ 1544  git status
+ 1545  git add lib/sortable/app/views/sortable/_alphabets.html.erb
+ 1546  git status
+ 1547  git commit -a -m "Added helper methods for Alphabets searhc."
+ 1548  git status
+ 1549  git clean -fd
+ 1550  git status
+ 1551  rvm 1.9.2
+ 1552  irb
+ 1553  lsusb
+ 1554  sudo modprobe usbserial vendor=0x0eab product=0x9357
+ 1555  cd Projects/portal
+ 1556  git status
+ 1557  rvm 1.9.2
+ 1558  rvm gemset use rails_321
+ 1559  git status
+ 1560  rails c
+ 1561  git statusx
+ 1562  git status
+ 1563  git commit -a -m "Added sorting and filter to matters module."
+ 1564  git status
+ 1565  gitg
+ 1566  git status
+ 1567  git fetch
+ 1568  git push origin master
+ 1569  gitg
+ 1570  rvm 1.9.2
+ 1571  rvm gemset use rails_321
+ 1572  rails s
+ 1573  lsusb
+ 1574  sudo modprobe usbserial vendor=0x0eab product=0x9357
+ 1575  lsusb
+ 1576  sudo modprobe usbserial vendor=0x0eab product=0x9357
+ 1577  rvm 1.9.2
+ 1578  rvm gemset use rails_321
+ 1579  rails s
+ 1580  rvm gemset use rails_321
+ 1581  rails s
+ 1582  exit
+ 1583  cd Projects/portal
+ 1584  git status
+ 1585  git reset --hard
+ 1586  git brancj
+ 1587  git branch
+ 1588  clear
+ 1589  rvm 1.9.2
+ 1590  rvm gemset use rails_321
+ 1591  rvm list
+ 1592  rails c
+ 1593  git status
+ 1594  git fetch
+ 1595  git push origin master
+ 1596  git status
+ 1597  git commit -a -m "Changes in Sortable modules."
+ 1598  git push origin master
+ 1599  git status
+ 1600  git checkout lib/contacts/app/views/crm/contacts/index.html.erb
+ 1601  git reset --hard
+ 1602  exit
+ 1603  cd Projects/portal
+ 1604  git status
+ 1605  rvm 1.9.2
+ 1606  rvm gemset use rails_321
+ 1607  clear
+ 1608  rvm 1.9.2
+ 1609  cd ..
+ 1610  ls
+ 1611  rails auditsurvey
+ 1612  rails new auditsurvey
+ 1613  rails g nifty_layout
+ 1614  rails g scaffold audit_survey name:string
+ 1615  rails new g scaffold audit_survey name:string
+ 1616  ls
+ 1617  rm -rf g
+ 1618  cd auditsurvey/
+ 1619  rvm gemset use rails_321
+ 1620  ruby -v
+ 1621  rails g nifty_layout
+ 1622  nano Gemfile 
+ 1623  gem list
+ 1624  bundle install
+ 1625  rails g scaffold audit name:string
+ 1626  nano Gemfile
+ 1627  nano config/database.yml 
+ 1628  rails g scaffold audit name:string
+ 1629  rake db:migrate
+ 1630  rails g model question survey_id:integer content:text type:integer
+ 1631  rake db:migrate
+ 1632  rails g model lookup lvalue:string
+ 1633  rake db:migrate
+ 1634  rails g scaffold lookups
+ 1635  rails g scaffold lookup
+ 1636  rails d model lookup lvalue:string
+ 1637  rails g scaffold lookup
+ 1638  rake db:migrate
+ 1639  rails s
+ 1640  nano Gemfile
+ 1641  bundle install
+ 1642  rails s
+ 1643  bundle install
+ 1644  rails s
+ 1645  rails g bootstrap:install
+ 1646  rails s
+ 1647  rails g bootstrap:themed audits -f
+ 1648  rails s
+ 1649  cd tmp/
+ 1650  ls
+ 1651  cd cache/
+ 1652  ls
+ 1653  cd ..
+ 1654  rails s
+ 1655  lsusb
+ 1656  sudo modprobe usbserial vendor=0x0eab product=0x9357
+ 1657  rvm 1.9.2
+ 1658  rvm gemset use rails_321
+ 1659  rails s -p 3001
+ 1660  bundle install
+ 1661  rails s -p 3001
+ 1662  exit
+ 1663  lsusb
+ 1664  sudo modprobe usbserial vendor=0x19d2 product=0xfff1
+ 1665  cd ..
+ 1666  cd .
+ 1667  cd ..
+ 1668  cd santnirankarisewadal/
+ 1669  rvm 1.8.7
+ 1670  rvm gemset use livia_portal
+ 1671  rvm list
+ 1672  ruby script/generate migration sewadal_logs
+ 1673  rake db:migrate VERSION=20111029074435
+ 1674  rake db:migrate:up VERSION=20111029074435
+ 1675  ifconfig
+ 1676  clear
+ 1677  cd Projects/portal
+ 1678  rvm 1.9.2
+ 1679  rvm gemset use rails_321
+ 1680  cd ..
+ 1681  rvm 1.9.2
+ 1682  ls
+ 1683  rails new sodexho_audit
+ 1684  ls
+ 1685  rm -rf sodexho_audit/
+ 1686  rvm gemset use rails_321
+ 1687  rails new sodexho_audit
+ 1688  cd sodexho_audit/
+ 1689  nano Gemfile 
+ 1690  bundle install
+ 1691  rvm gemset use rails_321
+ 1692  rvm 1.9.2
+ 1693  bundle install
+ 1694  nano Gemfile
+ 1695  bundle install
+ 1696  rails g surveyor:install rake db:migrate
+ 1697  nano Gemfile
+ 1698  bundle install
+ 1699  rails g surveyor:install rake db:migrate
+ 1700  rake surveyor FILE=surveys/kitchen_sink_survey.rb
+ 1701  nano surveys/kitchen_sink_survey.rb 
+ 1702  nano config/database.yml 
+ 1703  rake db:migrate
+ 1704  rake surveyor FILE=surveys/kitchen_sink_survey.rb
+ 1705  rails s -p 3001
+ 1706  cd ..
+ 1707  rails g surveyor:custom
+ 1708  rm -rf surveys/EXTENDING_SURVEYOR.md app/controllers/surveyor_controller.rb app/views/layouts/surveyor_custom.html.erb
+ 1709  rails g surveyor:audit
+ 1710  rails g surveyor:custom
+ 1711  cd ..
+ 1712  cd portal
+ 1713  clear
+ 1714  rvm 1.9.2
+ 1715  rvm gemset use rails_321
+ 1716  gem list
+ 1717  clear
+ 1718  git fetch
+ 1719  git status
+ 1720  git reset --hard
+ 1721  git reset --hard origin/master
+ 1722  gitg
+ 1723  cd ..
+ 1724  ls
+ 1725  mkdir portal_engines
+ 1726  mv -R portal portal_engines/.
+ 1727  mv -r portal portal_engines/.
+ 1728  mv  portal portal_engines/.
+ 1729  ls
+ 1730  cd portal_engines/
+ 1731  ls
+ 1732  git clone git@github.com/svishwamitra/contacts.git
+ 1733  git clone http://github.com/svishwamitra/contacts.git
+ 1734  git clone http://github.com/svishwamitra/accounts.git
+ 1735  ls
+ 1736  git clone http://github.com/svishwamitra/matters.git
+ 1737  git clone http://github.com/svishwamitra/addressable.git
+ 1738  git clone http://github.com/svishwamitra/sortable3.git
+ 1739  ls
+ 1740  cd portal/
+ 1741  rvm 1.9.2
+ 1742  rvm gemset use rails_321
+ 1743  ls
+ 1744  rm -rf nbproject/
+ 1745  clear
+ 1746  ls
+ 1747  git status
+ 1748  git reset --hard
+ 1749  git status
+ 1750  nano Gemfile
+ 1751  git status
+ 1752  cd ..
+ 1753  cd portal
+ 1754  rvm 1.9.2
+ 1755  rvm gemset use rails_321
+ 1756  rails s
+ 1757  rail s
+ 1758  rails s
+ 1759  rvm 1.9.2
+ 1760  rvm gemset use rails_321
+ 1761  rails s
+ 1762  bundle install
+ 1763  ls
+ 1764  cd ..
+ 1765  ls
+ 1766  rm -rf contacts/ 
+ 1767  ls
+ 1768  rm -rf address/
+ 1769  rm -rf addressable/
+ 1770  ls
+ 1771  rm -rf refinerycms/
+ 1772  rm -rf sortable/
+ 1773  rm -rf spree/
+ 1774  lsa
+ 1775  ls
+ 1776  rm -rf crm/
+ 1777  ls
+ 1778  rm -rf company/
+ 1779  ls
+ 1780  rm -rf 196-nested-model-form-part-1/
+ 1781  ls
+ 1782  rm -rf matters/
+ 1783  ls
+ 1784  rm -rf portal.zip 
+ 1785  ls
+ 1786  rm -rf 'portal (2)'
+ 1787  ls
+ 1788  cd portal/
+ 1789  clear
+ 1790  ls
+ 1791  cd ..
+ 1792  ls
+ 1793  cd ..
+ 1794  ls
+ 1795  cd po
+ 1796  Projects/
+ 1797  ls
+ 1798  cd Projects/
+ 1799  ls
+ 1800  mv jqtouch-1.0-b4-rc.zip ../
+ 1801  ls
+ 1802  cd portal/
+ 1803  rmv 1.9.2
+ 1804  rvm 1.9.2
+ 1805  rvm gemset use rails_321
+ 1806  nano Gemfile
+ 1807  bundle install
+ 1808  nano Gemfile
+ 1809  git status
+ 1810  bundle install
+ 1811  nano Gemfile
+ 1812  bundle install
+ 1813  rails s
+ 1814  clear
+ 1815  rails s
+ 1816  cd ..
+ 1817  ls
+ 1818  cd portal/
+ 1819  nano Gemfile
+ 1820  ls
+ 1821  rails s
+ 1822  cdd ..
+ 1823  cd ..
+ 1824  cd portal
+ 1825  rvm 1.9.2
+ 1826  rvm gemset use rails_321
+ 1827  rails c
+ 1828  irb
+ 1829  rails c
+ 1830  rvm 1.9.2
+ 1831  ls
+ 1832  cd ..
+ 1833  ls
+ 1834  rm -rf portal
+ 1835  cd portal_engines/
+ 1836  cd portal/
+ 1837  rails c
+ 1838  ls
+ 1839  git branch
+ 1840  bundle install
+ 1841  rails c
+ 1842  cd ..
+ 1843  rvm 1.8.7
+ 1844  irb
+ 1845  cd Projects/santnirankarisewadal/
+ 1846  rvm .18.7
+ 1847  rvm 1.8.7
+ 1848  rvm gemset use rails_321
+ 1849  rvm gemset use livia_portal
+ 1850  ruby script/server
+ 1851  lsusb
+ 1852  sudo modprobe usbserial vendor=0x0eab product=0x9357
+ 1853  lsusb
+ 1854  sudo modprobe usbserial vendor=0x0eab product=0x9357
+ 1855  cd Projects/santnirankarisewadal/
+ 1856  rvm 1.8.7
+ 1857  rvm gemset use livia_portal
+ 1858  rails s
+ 1859  ruby script/server
+ 1860  sudo modprobe usbserial vendor=0x0eab product=0x9357
+ 1861  rvm 1.8.7
+ 1862  rvm gemset use livia_portal
+ 1863  ruby script/generate controller adhikari_logs
+ 1864  exit
+ 1865  cd Projects/santnirankarisewadal/
+ 1866  rvm 1.8.7
+ 1867  rvm gemset use livia_portal
+ 1868  rails s
+ 1869  ruby script/server
+ 1870  exit
+ 1871  sudo modprobe usbserial vendor=0x0eab product=0x9357
+ 1872  cd Projects/
+ 1873  git clone git://github.com/springbok/smerf.git
+ 1874  cd smerf/
+ 1875  ls
+ 1876  cd app
+ 1877  ls
+ 1878  cd ..
+ 1879  nano install.rb 
+ 1880  nano Rakefile 
+ 1881  nano init.rb 
+ 1882  cd ..
+ 1883  cd santnirankarisewadal/
+ 1884  rvm 1.8.7
+ 1885  rvm gemset use livia_portal
+ 1886  ruby script/server
+ 1887  rake routes 
+ 1888  clera
+ 1889  clear
+ 1890  rake routes 
+ 1891  ruby script/server
+ 1892  ruby script/console
+ 1893  ruby script/server
+ 1894  rake route
+ 1895  rake routes
+ 1896  ruby script/server
+ 1897  ps -ef | grep ruby
+ 1898  kill -9 4329
+ 1899  ps -ef | grep ruby
+ 1900  ruby script/server
+ 1901  exit
+ 1902  sudo modprobe usbserial vendor=0x0eab product=0x9357
+ 1903  cd Projects/santnirankarisewadal/
+ 1904  rvm 1.8.7
+ 1905  rvm gemset use livia_portal
+ 1906  ruby/script server
+ 1907  ruby script/server
+ 1908  exit
+ 1909  rmv 1.8.7
+ 1910  rvm 1.8.7
+ 1911  rvm gemset use livia-portal
+ 1912  rvm gemset use livia_portal
+ 1913  ruby script/console
+ 1914  exit
+ 1915  cd Downloads/
+ 1916  scp netbeans-6.8-ml-ruby-linux.sh sachin@192.168.72.220:.
+ 1917  sudo modprobe usbserial vendor=0x0eab product=0x9357
+ 1918  cd ..
+ 1919  ls
+ 1920  rvm 1.9.2
+ 1921  rvm gemset use rails_321
+ 1922  rails s
+ 1923  cd ..
+ 1924  ls
+ 1925  cd auditsurvey/
+ 1926  cd ..
+ 1927  cd sodexho_audit/
+ 1928  ls
+ 1929  rvm gemset use rails_321
+ 1930  cd ..
+ 1931  git clone https://github.com/breakpointer/surveyor.git
+ 1932  ls
+ 1933  rvm 1.9.2
+ 1934  rvm gemset use rails_321
+ 1935  rails new sodexho
+ 1936  bundle install
+ 1937  cd sodexho
+ 1938  bundle install
+ 1939  rake db:migrate
+ 1940  rake g scaffold questions
+ 1941  rails g scaffold questions
+ 1942  rails d scaffold questions
+ 1943  rails g surveyor:install
+ 1944  rake db:migrate
+ 1945  cd Projects/portal_engines/
+ 1946  cd portal/
+ 1947  rvm 1.9.2
+ 1948  rvm gemset use rails_321
+ 1949  rails c
+ 1950  ls
+ 1951  nano config/database.yml 
+ 1952  rails c
+ 1953  exit
+ 1954  cd Projects/
+ 1955  ls
+ 1956  cd sodexho_audit/
+ 1957  rmv 1.9.2
+ 1958  rvm 1.9.2
+ 1959  rvm gemset use rails_321
+ 1960  clear
+ 1961  rails s
+ 1962  lsusb
+ 1963  sudo modprobe usbserial vendor=0x0eab product=0x9357
+ 1964  ssh root@182.18.161.107
+ 1965  rvm 1.9.2
+ 1966  rvm gemset use rails_321
+ 1967  cd ..
+ 1968  cd sodexho
+ 1969  rvm 1.9.2
+ 1970  rvm gemset use rails_321
+ 1971  rake surveyor FILE=surveys/food_survey
+ 1972  rake surveyor FILE=surveys/food_survey.rb 
+ 1973  rake surveyor FILE=surveys/quiz.rb
+ 1974  rake surveyor FILE=surveys/food_survey.rb 
+ 1975  rake surveyor FILE=surveys/quiz.rb
+ 1976  bundle install
+ 1977  ruby -v
+ 1978  rake surveyor FILE=surveys/quiz.rb
+ 1979  rake surveyor FILE=surveys/quiz.rb -t
+ 1980  rake surveyor FILE=surveys/date_survey.rb
+ 1981  rake surveyor FILE=surveys/quiz.rb -t
+ 1982  rake surveyor FILE=surveys/quiz.rb
+ 1983  ls
+ 1984  nano Gemfile
+ 1985  rake surveyor FILE=surveys/quiz.rb
+ 1986  git status
+ 1987  cd Projects/
+ 1988  ls
+ 1989  cd sodexho
+ 1990  ls
+ 1991  rvm 1.9.2
+ 1992  rvm gemset use rails_321
+ 1993  clear
+ 1994  git status
+ 1995  clear
+ 1996  cd ..
+ 1997  cd auditsurvey/
+ 1998  rvm 1.9.2
+ 1999  rvm gemset use rails_321
+ 2000  rails s
+ 2001  history 
+ 2002  history > hist.txt
